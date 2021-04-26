@@ -1,4 +1,4 @@
-# JText - Java File Search App
+# SearchRaptor - A Simple Java File Search App
 
 ## Getting Started
 
