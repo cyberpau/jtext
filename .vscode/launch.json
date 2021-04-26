@@ -6,23 +6,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch) with Arguments Prompt",
-            "request": "launch",
-            "mainClass": "",
-            "args": "one two three"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-App<jtext_7095d593>",
+            "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "jtext_7095d593"
+            "projectName": "search-raptor_709efa57",
+            "args": ["./src/", "two", "three"]
         }
     ]
 }

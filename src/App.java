@@ -4,12 +4,12 @@ public class App {
     public static void main(String[] args) throws Exception {
         FileSearch app = new FileSearch();
         switch (Math.min(args.length, 3)) {
-            case 3: app.setZipFileName(args[2]);
-            case 2: app.setZipFileName(args[1]);
-            case 1: app.setZipFileName(args[0]);
-            default:
+            case 0:
                 System.out.println("USAGE: FileSearchApp path [regex] [zipfile]");
-                break;
+                return;
+            case 3: app.setZipFileName(args[2]);
+            case 2: app.setRegex(args[1]);
+            case 1: app.setPath(args[0]);
         }
 
         try {
