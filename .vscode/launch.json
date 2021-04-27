@@ -10,7 +10,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "search-raptor_709efa57",
-            "args": ["./src/", "two", "three"]
+            "args": ["./", ".*file*", "../test.zip"]
         }
     ]
 }
